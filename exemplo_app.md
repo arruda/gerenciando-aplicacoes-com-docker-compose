@@ -92,4 +92,10 @@ Nesse caso iremos rodar o script `prepare_db.sh` num container `web`.
 
 Esse script faz com que a aplicação rode um comando, onde é criado um banco de dados com as tabelas usadas pela aplicação web.
 
+Para isso faremos:
+
+```bash
+$ docker-compose run web /data/prepare_db.sh
+```
+
 Se verificarmos novamente o banco de dados, veremos que foi criado a tabela `pessoas` (relativo ao que foi definido em [models.py](exemplo_app/models.py) na aplicação web), e outras tabelas relativas a aplicação web.
