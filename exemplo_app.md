@@ -25,6 +25,17 @@ VOLUME /data
 
 ## O que é um Volume
 
+Quando definimos um volume num container, estamos definindo um tipo especial de diretorio.
+
+Volumes tem várias funcionalidades, como:
+ * persistir dados mesmo removendo que o container seja deletado.
+ * compartilhar uma pasta entre o Host e o container
+ * compartilhar dados entre containers
+
+Nesse exemplo de aplicação web, vamos mapear para que a pasta com o codigo fonte da aplicação web, fique na pasta `/data` dentro do container.
+Com isso, toda alteração feita no codigo fonte, estará replicada dentro do container.
+
+Fazemos isso, usando a configuração `volumes` no `docker-compose.yml`.
 
 ## Linkando containers
 Permite que um container acesse as portas expostas por outro container em que ele se ligará.
