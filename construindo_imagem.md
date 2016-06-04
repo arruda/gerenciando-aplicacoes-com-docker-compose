@@ -1,5 +1,5 @@
 ![Sua propria imagem](img/criando_imagem.png "Contruindo sua propria imagem.")
-# Contruindo sua pripria imagem com Dockerfile
+# Contruindo sua propria imagem com Dockerfile
 
 # Dockerfile?!
 Esse arquivo maroto descreve de forma bem clara os passos necessarios para montar uma determinada Imagem.
