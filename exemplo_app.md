@@ -28,7 +28,7 @@ VOLUME /data
 Quando definimos um volume num container, estamos definindo um tipo especial de diretorio.
 
 Volumes tem várias funcionalidades, como:
- * persistir dados mesmo removendo que o container seja deletado.
+ * persistir dados mesmo que o container seja deletado.
  * compartilhar uma pasta entre o Host e o container
  * compartilhar dados entre containers
 
