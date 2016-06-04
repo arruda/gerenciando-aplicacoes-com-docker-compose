@@ -1,0 +1,18 @@
+web:
+  build: .
+  working_dir: /data
+  command: python app.py
+  links:
+    - db
+  volumes:
+    - .:/data
+  ports:
+    - "8080:80"
+
+db:
+  image: postgres:9.3
+  environment:
+    - POSTGRES_USER=sis_web
+    - POSTGRES_PASSWORD=123
+  ports:
+    - "5432:5432"

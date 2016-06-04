@@ -1,0 +1,4 @@
+Flask==0.10.1
+psycopg2
+Flask-SQLAlchemy
+Flask-Migrate
