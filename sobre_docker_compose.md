@@ -19,7 +19,7 @@ db:
     - "6789:5432"
 ```
 
-# Contralando um container usando docker-compose
+# Controlando um container usando docker-compose
 Agora que temos nosso arquivo de configuração, podemos criar e controlar esse container usando uma série de comandos do `docker-compose`
 
 
